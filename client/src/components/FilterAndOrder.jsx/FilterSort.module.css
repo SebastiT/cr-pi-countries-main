@@ -1,0 +1,67 @@
+.component {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin: 2rem;
+  padding: 2px;
+  position: relative;
+
+}
+
+.component h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.component label {
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  padding-inline: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.component label input {
+  height: 20px;
+}
+
+.component button {
+  background-color: darkcyan;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 13px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  margin: 4px;
+}
+
+.component button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.component button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+.component input {
+  font-weight: 500;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid #062b1e;
+  outline: none;
+}
+
+.componenet input:focus {
+  border-bottom: 1px solid #6941c6;
+  -webkit-transition: 0.1s;
+  transition: 0.5s;
+}

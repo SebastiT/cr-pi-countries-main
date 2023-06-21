@@ -1,0 +1,38 @@
+.detail{
+  margin: 5rem;
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  overflow: hidden;
+
+  flex-wrap: wrap;
+
+}
+
+.detail img{
+  max-width: 700px;
+  max-height: 500px;
+  padding: 1rem;
+}
+
+.detail h2 {
+text-align: justify;
+  margin: 45px;
+}
+
+.activitiesCont{
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+}
+
+.activity{
+  padding: 3rem;
+  background-color: darkcyan;
+  border-radius: 5px;
+  margin: 10px
+}
+
+.activity h4{
+  text-align: justify;
+}
